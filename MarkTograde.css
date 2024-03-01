@@ -1,0 +1,37 @@
+#converterPage{
+    font-weight: 600;
+    text-decoration: underline;
+}
+#converter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vw;
+    padding-left: 15vw;
+    padding-top: 7vw;
+    font-size: 2vw;
+}
+
+#heading {
+    font-weight: 600;
+}
+
+#marksInput {
+    /* height: 1.5vw; */
+    position: relative;
+    /* bottom: 0.3vw; */
+    font-size: 2vw;
+    border-radius: 0.5vw;
+}
+
+#marksInputError {
+    display: inline-block;
+}
+
+button {
+    font-size: 2vw;
+    width: 8vw;
+    border-radius: 0.5vw;
+    background-color: black;
+    color: white;
+}

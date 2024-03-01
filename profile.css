@@ -1,0 +1,51 @@
+#homePage {
+    font-weight: 600;
+    text-decoration: underline;
+}
+.img {
+    position: absolute;
+    left: 70vw;
+    top: 12vw;
+    border-radius: 1vw;
+}
+img {
+    width: 22vw;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 13vw;
+    top: 12vw;
+    border-radius: 1vw;
+}
+#imageName {
+    font-size: 5vw;
+    margin: 16vw 0 10vw 40vw;
+    visibility: hidden;
+}
+p {
+    width: 60vw;
+    padding: 8vw 19vw 0vw 19vw;
+    font-size: 1.3vw;
+}
+hr {
+    margin-top: 18vw;
+    height: 0.1vw;
+    background-color: black;
+    border-color: black;
+}
+/* #converter {
+    font-size: 2vw;
+    margin: 10vw 0 5vw 40vw;
+} */
+/* button {
+    width: 4vw;
+    height: 2.5vw;
+    position: relative;
+    top: -0.2vw;
+    background-color: black;
+    padding-top: 0;
+} */
+/* button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2svw;
+} */

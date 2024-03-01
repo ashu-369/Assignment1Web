@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Ensure the body takes at least the full height of the viewport */
+    margin: 0;
+    background-color: rgb(221, 200, 172);
+}
+
+nav {
+    padding-left: 55vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: black;
+    height: 4vw;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* margin-bottom: 6vw; */
+}
+
+nav a {
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 1.05vw;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky;
+    bottom: 0;
+    margin-top: 800px; */
+    height: 5vw;
+    background-color: black;
+    color: white;
+    margin-top: 5vw;
+    padding: 0 2vw;
+}

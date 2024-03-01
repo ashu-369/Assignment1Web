@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+
+    <nav>
+        <a id="homePage" href="index.html">Profile</a>
+        <a id="converterPage" href="MarkToGrade.html">Mark To Grade Converter</a>
+        <a id="staffPage" href="staff.html">Staff</a>
+        <a id="weatherPage" href="weather.html">Weather</a>
+    </nav>
+
+    <main>
+        <div class="image">
+            <img src="Ashu.png" alt="Passport Size Photo">
+        </div>
+        <div id="imageName">
+            Arshdeep Singh, <br>
+            Software Developer
+        </div>
+
+        <p>
+            Hello, I'm Arshdeep Singh, a passionate and results-driven software developer dedicated to crafting
+            efficient
+            and innovative solutions. With a strong foundation in computer science and extensive hands-on experience, I
+            specialize in creating robust software applications that not only meet but exceed client expectations. My
+            expertise spans across various technologies, including front-end and back-end development, database
+            management,
+            and cloud computing. I thrive in dynamic and collaborative environments, always eager to tackle new
+            challenges
+            and explore cutting-edge technologies. As a continuous learner, I stay abreast of industry trends to ensure
+            my
+            skills are at the forefront of technological advancements. Let's transform ideas into reality through code!
+        </p>
+
+        <p>
+            At the core of my development philosophy is the belief that great software is not just about writing code;
+            it's
+            about solving problems and enhancing user experiences. I approach each project with a meticulous mindset,
+            emphasizing clean, maintainable code and intuitive user interfaces. Whether I'm building a scalable web
+            application, optimizing database performance, or implementing robust APIs, my goal is to deliver solutions
+            that
+            not only meet the functional requirements but also provide a seamless and enjoyable experience for
+            end-users. I
+            value open communication and collaboration, working closely with stakeholders to understand their needs and
+            ensuring that the final product aligns perfectly with their vision. Let's embark on a journey of innovation
+            and
+            create software solutions that make a lasting impact.
+        </p>
+    </main>
+
+    <footer>
+        <div id="date">
+            Date:
+        </div>
+        <br>
+        <div id="copyright">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        let imageName = document.querySelector("#imageName");
+setTimeout(
+    () => {
+        imageName.style.visibility = "visible"
+    },
+    10000
+);
+    </script>
+</body>
+
+</html>

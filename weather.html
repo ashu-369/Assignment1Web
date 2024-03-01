@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #weatherPage {
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav>
+        <a id="homePage" href="index.html">Profile</a>
+        <a id="converterPage" href="MarkToGrade.html">Mark To Grade Converter</a>
+        <a id="staffPage" href="staff.html">Staff</a>
+        <a id="weatherPage" href="weather.html">Weather</a>
+    </nav>
+
+    <main>
+        
+        <h2>Temperature Converter</h2>
+        <br>
+
+        <label for="fahrenheit">Enter Temperature in Fahrenheit: </label>
+        <input type="text" id="fahrenheit" placeholder="Enter temperature">
+
+        <div id="error"></div>
+
+        <button id="convertToCelsius">Convert To Celsius</button>
+        <div id="resultInCelsius"></div>
+
+        <button id="convertToKelvin">Convert To Kelvin</button>
+        <div id="resultInKelvin"></div>
+
+        <button id="reset">Reset</button>
+    
+    </main>
+
+    <footer>
+        <div id="date">
+            Date:
+        </div>
+        <br>
+        <div id="copyright">
+        </div>
+    </footer>
+
+    <script src="weather.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

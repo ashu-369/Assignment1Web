@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .button{
+            margin: 1vw 0 0.5vw 0;
+        }
+        button{
+            background-color: red;
+            color:black;
+            height: 2rem;
+            width:5vw;
+            border-radius: 0.4vw;
+            font-size: 0.8em;
+        }
+        #staffPage {
+            font-weight: 600;
+            text-decoration: underline;
+        }
+        #staff-list{
+            display: flex;
+            flex-direction: column;
+            gap: 0.2vw;
+            margin-left: 1.5vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a id="homePage" href="index.html">Profile</a>
+        <a id="converterPage" href="MarkToGrade.html">Mark To Grade Converter</a>
+        <a id="staffPage" href="staff.html">Staff</a>
+        <a id="weatherPage" href="weather.html">Weather</a>
+    </nav>
+    <main>
+        <div>
+
+            <ul class="button "> <button onclick="sortByEmployee('PersonSalary')" class="salary">Sort by Salary</button>
+                <button onclick="sortByEmployee('PersonName')" class="name">Sort by Name</button>
+            </ul>
+            <ul id="staff-list"></ul>
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="date">
+            Date:
+        </div>
+        <br>
+        <div id="copyright">
+        </div>
+    </footer>
+    <script src="staff.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
